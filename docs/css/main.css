@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Now-ui-kit - v1.1.0
+ * Now-ui-kit - v11.0
  =========================================================
 
  * Product Page: http://www.creative-tim.com/product/now-ui-kit
@@ -24,6 +24,78 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
+
+/*galeria*/
+.topimg1 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-image: url(/docs/images/Chat-Bot-Home\ page.png);
+  background-size: cover;
+}
+figure.cc-effect:hover div.topimg1:hover {
+    transition: 0.5s ease-in-out;
+    background-image: url(/docs/images/Chat-Bot-Page.png);
+    background-size: cover;
+  }
+
+@keyframes slide_Vacunacion1{
+  0%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_Login.png);
+  }
+  50%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_new_user.png);
+  }
+  100%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_Login.png);
+  }
+}
+
+@keyframes slide_Vacunacion2{
+  0%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_Home_Page.png);
+  }
+  20%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_Edit_Page.png);
+  }
+  40%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_Registro_Page.png);
+  }
+  60%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_new_Registro_Page.png);
+  }
+  80%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_Search_Page.png);
+  }
+  100%{
+    background-image: url(/docs/images/Centro_de_Vacunacion_Home_Page.png);
+  }
+}
+
+.topimg2 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-blend-mode: unset;
+  background-size: 550px 300px;
+  animation: slide_Vacunacion1 8s infinite;
+}
+figure.cc-effect:hover div.topimg2:hover {
+  animation: slide_Vacunacion2 15s infinite;
+}
+
+.topimg3 {
+  position: relative;
+  width: auto;
+  height: 300px;
+  background-blend-mode: unset;
+  background-size: 550px 300px;
+  background-image: url(/docs/images/Farmacia_HomePage.png  );
+}
+figure.cc-effect:hover div.topimg3:hover {
+  background-image: url(/docs/images/Farmacia_Inventario.png);
+}
+
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
@@ -5040,7 +5112,8 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect figcaption::after {
   position: absolute;
   content: '';
-  opacity: 0; }
+  opacity: 0; 
+}
 
 .gallery figure.cc-effect figcaption::before {
   top: 10px;
@@ -5097,7 +5170,7 @@ Created using IcoMoon - icomoon.io
 .gallery figure.cc-effect:hover figcaption::after {
   opacity: 1;
   transform: scale(1); }
-
+/* Figuras :Hover galeria*/
 .gallery figure.cc-effect:hover figcaption:before {
   background: rgba(27, 23, 23, 0.5); }
 
