@@ -2038,12 +2038,12 @@ textarea.form-control {
   .progress-container.progress-neutral .progress-badge {
     color: #FFFFFF; }
   .progress-container.progress-primary .progress {
-    background: rgba(55, 140, 63, 0.4); }
+    background: hsla(342, 82%, 44%, 0.685); }
   .progress-container.progress-primary .progress-bar {
-    background: #680a26; }
+    background: #770d2d; }
   .progress-container.progress-primary .progress-value,
   .progress-container.progress-primary .progress-badge {
-    color: #680a26; }
+    color: #770d2d; }
   .progress-container.progress-info .progress {
     background: rgba(44, 168, 255, 0.3); }
   .progress-container.progress-info .progress-bar {
