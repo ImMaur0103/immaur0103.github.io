@@ -5348,11 +5348,14 @@ Created using IcoMoon - icomoon.io
 .cc-twitter:hover i {
   color: #1da1f2; }
 
-.cc-GitHub-plus:hover i {
-  color: #dd4b39; }
+.cc-GitHub:hover i {
+  color: #030101; }
 
 .cc-instagram:hover i {
-  color: #405de6; }
+  color: #af22c2; }
+
+.cc-linkedin:hover i {
+  color: #2052be; }
 
 /* Credit Style */
 a.credit {
