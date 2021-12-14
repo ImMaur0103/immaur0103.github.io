@@ -1900,14 +1900,14 @@ fieldset[disabled]
   color: #888;
   cursor: not-allowed; }
 
-.input-group-btn .btn {
+.input-group-btn .btn{
   border-width: 1px;
   padding: 11px 0.7rem; }
 
 .input-group-btn .btn-default:not(.btn-fill) {
   border-color: #DDDDDD; }
 
-.input-group-btn:last-child > .btn {
+.input-group-btn:last-child > .btn{
   margin-left: 0; }
 
 textarea.form-control {
@@ -2512,6 +2512,11 @@ body {
   color: #000000; }
   .btn-GitHub:hover, .btn-GitHub:focus, .btn-GitHub:active {
     color: #1d1d1d; }
+
+.btn-Certificate {
+  color: #f3dc12; }
+  .btn-Certificate:hover, .btn-Certificate:focus, .btn-Certificate:active {
+    color: #fce941; }
 
 .btn-instagram {
   color: #89148d; }
